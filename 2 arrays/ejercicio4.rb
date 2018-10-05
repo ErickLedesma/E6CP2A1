@@ -7,11 +7,12 @@ Se tiene un arreglo de productos, se pide que el output sea:
 =end
 
 products = %w(Producto1 Producto2 Producto3 Producto4)
-
+  
 html = ''
 products.each do |i|
-  html += "<div class='product'>"
-  html += "</div>\n"
+  html += "<div class='product'><p> "
+  html += i   
+  html += " <p></div>\n"
 end
 
 puts html

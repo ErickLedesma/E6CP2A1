@@ -5,3 +5,7 @@
 
 cadena = 'Hola Mundo!'
 caracter = 'o'
+
+puts cadena.include?(caracter)
+
+
