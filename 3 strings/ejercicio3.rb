@@ -11,8 +11,33 @@
 a = [1, 2, 3, 9, 12, 31, 'domingo']
 b = %w[lunes martes miércoles jueves viernes sábado domingo]
 
+# 1
+c = a + b   
+print c
+puts "\n"
+
+# 2
+d = c.uniq
+print d
+puts "\n"
+
+# 3
+e = []
+a.each do |i|
+    if b.include?(i) 
+    then e.push(i)
+    end 
+end  
+print e  
+puts "\n"
 
 
-
+# 4 
+f = [] 
+a.each_with_index do |value, index|
+    f.push([value, b[index]])
+end 
+print f  
+puts "\n"
 
 
