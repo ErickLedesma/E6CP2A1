@@ -7,7 +7,7 @@
 a = [1,2,3,9,1,4,5,2,3,6,6]
 
 # 1
-b = a.take(a.size)
+b = a.clone
 b.delete_if { |i| i.even? }
 print b  
 puts "\n"

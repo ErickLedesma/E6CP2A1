@@ -6,6 +6,9 @@
 cadena = 'Hola Mundo!'
 caracter = 'o'
 
-puts cadena.include?(caracter)
+def busqueda (texto, a)
+    puts texto.include?(a)
+end 
 
+busqueda(cadena, caracter)
 

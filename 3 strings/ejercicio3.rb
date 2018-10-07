@@ -22,12 +22,13 @@ print d
 puts "\n"
 
 # 3
-e = []
-a.each do |i|
-    if b.include?(i) 
-    then e.push(i)
-    end 
-end  
+# e = []
+# a.each do |i|
+#     if b.include?(i) 
+#     then e.push(i)
+#     end 
+# end  
+e = a & b
 print e  
 puts "\n"
 
